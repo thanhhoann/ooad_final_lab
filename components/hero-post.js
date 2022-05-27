@@ -20,13 +20,6 @@ export default function HeroPost({
               <a className="hover:underline">{title}</a>
             </Link>
           </h3>
-          <div className="mb-4 text-lg md:mb-0">
-            <DateFormatter dateString={date} />
-          </div>
-        </div>
-        <div>
-          <p className="mb-4 text-lg leading-relaxed">{title}</p>
-          <Avatar name={author.name} picture={author.picture} />
         </div>
       </div>
     </section>
